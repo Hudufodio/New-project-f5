@@ -16,14 +16,14 @@ body {
         hsla(340, 95%, 50%, 0.341),
         hsla(317, 45%, 52%, 0.42)
       ),
-      url(./imgs/header-pic1.png);
+      url('./imgs/header-pic1.png');
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
         to right,
         hsla(340, 95%, 50%, 0.341),
         hsla(317, 45%, 52%, 0.42)
       ),
-      url(./imgs/header-pic1.png);
+      url('./imgs/header-pic1.png');
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -228,65 +228,66 @@ body {
       .servivios-ind {
         width: 28%;
         text-align: center;
+
+        img {
+          width: 90%;
+        }
+
+        h3 {
+          margin: 10px 0;
+        }
+
+        p {
+          font-weight: 300;
+          text-align: justify;
+        }
+        
       }
+    }
+  }
+
+  footer {
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+
+    .container-footer {
+      display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+      margin: auto;
+      padding-bottom: 50px;
+      border-bottom: 1px solid #ccc;
+
+      .content-foot {
+        text-align: center;
+
+        h4 {
+          color: #fff;
+          border-bottom: 3px solid #af20d3;
+          padding-bottom: 5px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          color: #ccc;
+        }
+      }
+    }
+
+    .final-title {
+      text-align: center;
+      font-size: 24px;
+      margin: 20px 0 0 0;
+      color: #9e9797;
     }
   }
 }
 
-/* will continue code clean-up here*/
 
-.servicios-ind img {
-  width: 90%;
-}
+/*breakpoints*/
 
-.servivios-ind h3 {
-  margin: 10px 0;
-}
-
-servivios-ind p {
-  font-weight: 300;
-  text-align: justify;
-}
-
-/*footer*/
-
-footer {
-  background: #414141;
-  padding: 60px 0 30px 0;
-  margin: auto;
-  overflow: hidden;
-}
-
-.container-footer {
-  display: flex;
-  width: 90%;
-  justify-content: space-evenly;
-  margin: auto;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #ccc;
-}
-
-.content-foot {
-  text-align: center;
-}
-
-.content-foot h4 {
-  color: #fff;
-  border-bottom: 3px solid #af20d3;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-
-.content-foot p {
-  color: #ccc;
-}
-
-.final-title {
-  text-align: center;
-  font-size: 24px;
-  margin: 20px 0 0 0;
-  color: #9e9797;
-}
 @media screen and (max-width: 900px) {
   header {
     background-position: center;
