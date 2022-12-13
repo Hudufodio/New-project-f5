@@ -179,7 +179,7 @@ body .about-services .title {
   color: #642a73;
   font-size: 30px;
   text-align: center;
-  margin-bottom: 60px;
+  margin: 36px 36px;
 }
 body .about-services .servicios-cont {
   display: flex;
@@ -190,8 +190,8 @@ body .about-services .servicios-cont .servivios-ind {
   width: 25%;
   text-align: center;
 }
-body .about-services .servicios-cont .servivios-ind img {
-  width: 10%;
+body .about-services .servicios-cont .servivios-ind #img1 {
+  width: 50px;
 }
 body .about-services .servicios-cont .servivios-ind h3 {
   margin: 10px 0;
