@@ -187,11 +187,8 @@ body .about-services .servicios-cont {
   align-items: center;
 }
 body .about-services .servicios-cont .servivios-ind {
-  width: 25%;
+  width: 350px;
   text-align: center;
-}
-body .about-services .servicios-cont .servivios-ind #img1 {
-  width: 50px;
 }
 body .about-services .servicios-cont .servivios-ind h3 {
   margin: 10px 0;
@@ -199,6 +196,9 @@ body .about-services .servicios-cont .servivios-ind h3 {
 body .about-services .servicios-cont .servivios-ind p {
   font-weight: 300;
   text-align: justify;
+}
+body .about-services img {
+  width: 300px;
 }
 body footer {
   background: #414141;
