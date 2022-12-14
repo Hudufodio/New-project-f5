@@ -226,12 +226,8 @@ body {
       align-items: center;
 
       .servivios-ind {
-        width: 25%;
+        width: 350px;
         text-align: center;
-
-        #img1 {
-          width: 50px;
-        }
 
         h3 {
           margin: 10px 0;
@@ -242,6 +238,10 @@ body {
           text-align: justify;
         }
       }
+    }
+
+    img {
+      width: 300px;
     }
   }
 
