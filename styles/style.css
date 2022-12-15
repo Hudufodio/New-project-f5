@@ -13,7 +13,7 @@ body header {
   height: 600px;
   background: #bc4e9c; /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsla(340deg, 95%, 50%, 0.341), hsla(317deg, 45%, 52%, 0.42)), url("./imgs/header-pic1.png");
+  background: linear-gradient(to right, hsla(340deg, 57%, 57%, 0.341), hsla(317deg, 67%, 59%, 0.42)), url("./imgs/header-pic1.png");
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
