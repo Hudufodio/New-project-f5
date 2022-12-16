@@ -225,9 +225,10 @@ body {
       justify-content: space-between;
       align-items: center;
 
-      .servivios-ind {
+      .servicios-ind {
         width: 350px;
-        text-align: center;
+        text-align: left;
+        margin: 0px 20px;
 
         h3 {
           margin: 10px 0;
@@ -235,13 +236,13 @@ body {
 
         p {
           font-weight: 300;
-          text-align: justify;
+          text-align: start;
         }
       }
     }
 
     img {
-      width: 300px;
+      width: 310px;
     }
   }
 

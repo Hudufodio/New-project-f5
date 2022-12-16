@@ -186,19 +186,20 @@ body .about-services .servicios-cont {
   justify-content: space-between;
   align-items: center;
 }
-body .about-services .servicios-cont .servivios-ind {
+body .about-services .servicios-cont .servicios-ind {
   width: 350px;
-  text-align: center;
+  text-align: left;
+  margin: 0px 20px;
 }
-body .about-services .servicios-cont .servivios-ind h3 {
+body .about-services .servicios-cont .servicios-ind h3 {
   margin: 10px 0;
 }
-body .about-services .servicios-cont .servivios-ind p {
+body .about-services .servicios-cont .servicios-ind p {
   font-weight: 300;
-  text-align: justify;
+  text-align: start;
 }
 body .about-services img {
-  width: 300px;
+  width: 310px;
 }
 body footer {
   background: #414141;
