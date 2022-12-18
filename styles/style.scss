@@ -10,20 +10,25 @@ body {
   header {
     width: 100%;
     height: 600px;
-    background: #bc4e9c; /* fallback for old browsers */
+    background: #67b26f; /* fallback for old browsers */
     background: -webkit-linear-gradient(
-        to right,
-        hsla(339, 74%, 56%, 0.341),
-        hsla(317, 71%, 57%, 0.42)
-      ),
-      url("./imgs/header-pic1.png");
+      to right,
+      #4ca2cd,
+      #67b26f
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(200, 56%, 55%, 0.353), #67b26f53),
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        url("../imgs/header-pic1.png");
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-        to right,
-        hsla(340, 57%, 57%, 0.341),
-        hsla(317, 67%, 59%, 0.42)
-      ),
-      url("./imgs/header-pic1.png");
+    background: #67b26f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #4ca2cd,
+      #67b26f
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(200, 56%, 55%, 0.377), hsla(126, 33%, 55%, 0.337)),
+      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        url("../imgs/header-pic1.png");
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
