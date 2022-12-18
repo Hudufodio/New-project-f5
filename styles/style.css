@@ -12,10 +12,10 @@ body header {
   width: 100%;
   height: 600px;
   background: #67b26f; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsla(200deg, 56%, 55%, 0.353), rgba(103, 178, 111, 0.3254901961)), url("../imgs/header-pic1.png");
+  background: linear-gradient(to right, hsla(200deg, 56%, 55%, 0.353), rgba(103, 178, 111, 0.3254901961)), url("../imgs/header-cover.jpg");
   /* Chrome 10-25, Safari 5.1-6 */
   background: #67b26f; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, hsla(200deg, 56%, 55%, 0.377), hsla(126deg, 33%, 55%, 0.337)), url("../imgs/header-pic1.png");
+  background: linear-gradient(to right, hsla(200deg, 56%, 55%, 0.377), hsla(126deg, 33%, 55%, 0.337)), url("../imgs/header-cover.jpg");
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-attachment: fixed;
